@@ -1,4 +1,4 @@
-# 🌐 Web Development Program – One Week Challenge
+# 🌐 Web Development Program 
 
 Welcome to the **Web Development Program** repository!  
 This project was created as part of a one-week intensive web development initiative, designed to achieve specific program outcomes and hands-on learning.
