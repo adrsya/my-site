@@ -3,65 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our IT Security Team</title>
+    <title>IT Security Team | Cybersecurity Experts</title>
     <link rel="stylesheet" href="cyber.css">
+    <!-- Professional Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Meet Our IT Security Experts</h1>
-        <p>Protecting your digital assets with expertise and trust</p>
-        <nav>
-            <ul>
-                <li><a href="#Team">Our Team</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="https://www.cisa.gov/">Contact Us</a></li>
-                <li><a href="feedback.html" target="_blank">Feedback</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meet Our IT Security Experts</h1>
+            <p class="subtitle">Safeguarding your digital assets with expertise and integrity</p>
+            <nav>
+                <ul>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="feedback.html" target="_blank">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="team">
-        <h2>Our Mission</h2>
-        <p>We are dedicated to safeguarding your business through proactive cybersecurity measures and expert solutions.</p>
-    </section>
-    <h2 style="font-size: 2rem; text-align: center;  background-color: #fff; text-shadow: 3px 5px 5px #8f8888;
-">Our Team</h2>
-
-    <section id="profiles">
-            <div class="transmission-line"></div> 
-          
-            <div class="profile" id="profile1">
-              <img src="john_doe.png" alt="John Doe">
-              <h3>John Doe</h3>
-              <p>Lead Security Analyst</p>
-              <p>With over 10 years in cybersecurity, John specializes in threat analysis and risk management.</p>
+    <main>
+        <section id="mission" class="section">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>We protect businesses with proactive cybersecurity solutions and trusted expertise, enabling organizations to operate securely and confidently in the digital world.</p>
             </div>
-          
-            <div class="profile" id="profile2">
-              <img src="jane_smith.jpg" alt="Jane Smith">
-              <h3>Jane Smith</h3>
-              <p>Network Security Engineer</p>
-              <p>Jane focuses on securing network infrastructures and implementing robust firewalls.</p>
+        </section>
+
+        <section id="team" class="section">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="profiles">
+                    <div class="profile-card">
+                        <img src="john_doe.png" alt="John Doe" class="profile-img">
+                        <h3>John Doe</h3>
+                        <span class="role">Lead Security Analyst</span>
+                        <p>Over 10 years of experience in cybersecurity, specializing in threat analysis and risk management.</p>
+                        <ul class="profile-social">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-card">
+                        <img src="jane_smith.jpg" alt="Jane Smith" class="profile-img">
+                        <h3>Jane Smith</h3>
+                        <span class="role">Network Security Engineer</span>
+                        <p>Expert in securing network infrastructures and implementing robust firewalls.</p>
+                        <ul class="profile-social">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-card">
+                        <img src="alex_kumar.jpg" alt="Alex Kumar" class="profile-img">
+                        <h3>Alex Kumar</h3>
+                        <span class="role">Cloud Security Specialist</span>
+                        <p>Focuses on cloud security, identity management, and compliance for hybrid environments.</p>
+                        <ul class="profile-social">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-card">
+                        <img src="sophia_lee.jpg" alt="Sophia Lee" class="profile-img">
+                        <h3>Sophia Lee</h3>
+                        <span class="role">Incident Response Lead</span>
+                        <p>Handles security breaches, investigations, and rapid threat mitigation for enterprise clients.</p>
+                        <ul class="profile-social">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-    </section>
+        </section>
 
-    <section id="certifications">
-        <h2>Our Certifications</h2>
-        <ul>
-            <li>ISO 27001 Certified</li>
-            <li>CISSP Certified</li>
-            <li>Certified Ethical Hacker (CEH)</li>
-        </ul>
-    </section>
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <ul class="service-list">
+                    <li><i class="fa fa-shield-halved"></i> Threat Assessment & Risk Analysis</li>
+                    <li><i class="fa fa-network-wired"></i> Network Security Architecture</li>
+                    <li><i class="fa fa-cloud"></i> Cloud Security Solutions</li>
+                    <li><i class="fa fa-user-secret"></i> Penetration Testing & Vulnerability Scanning</li>
+                    <li><i class="fa fa-database"></i> Data Protection & Encryption</li>
+                    <li><i class="fa fa-people-arrows"></i> Incident Response & Forensics</li>
+                    <li><i class="fa fa-graduation-cap"></i> Employee Security Training</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Secure your business today. Reach out to our team for consultations and inquiries.</p>
-        <a href="mailto:contact@securityteam.com">Email Us</a>
-    </section>
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2>Our Certifications</h2>
+                <ul class="cert-list">
+                    <li><i class="fa fa-certificate"></i> ISO 27001 Certified</li>
+                    <li><i class="fa fa-shield-halved"></i> CISSP Certified</li>
+                    <li><i class="fa fa-user-secret"></i> Certified Ethical Hacker (CEH)</li>
+                    <li><i class="fa fa-award"></i> CompTIA Security+</li>
+                    <li><i class="fa fa-certificate"></i> AWS Certified Security – Specialty</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Secure your business today. Reach out to our team for consultations and inquiries.</p>
+                <a class="contact-btn" href="mailto:contact@securityteam.com"><i class="fa fa-envelope"></i> Email Us</a>
+                <p>Visit <a href="https://www.cisa.gov/" target="_blank">CISA</a> for more resources.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 IT Security Team | All rights reserved</p>
+        <div class="container">
+            <p>&copy; 2025 IT Security Team | All rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>
