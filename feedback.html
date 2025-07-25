@@ -5,47 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feedback Form</title>
   <link rel="stylesheet" href="feedback.css">
-  <style>
-    #preview {
-      margin-top: 10px;
-      text-align: center;
-    }
-    #preview img {
-      max-width: 200px;
-      border-radius: 8px;
-    }
-  </style>
 </head>
 <body>
   <div class="form-container">
     <h2>We Value Your Feedback</h2>
     <form action="/submit-feedback" method="POST" enctype="multipart/form-data" id="feedback-form">
       <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
       <label for="id">Student ID:</label>
-      <input type="text" id="id" name="id" placeholder="Enter your student ID" required><br><br>
+      <input type="text" id="id" name="id" placeholder="Enter your student ID" required>
 
       <label>Gender:</label>
       <input type="radio" id="male" name="gender" value="Male" required>
-      <label for="male">Male</label>
+      <label for="male" class="gender-label">Male</label>
       <input type="radio" id="female" name="gender" value="Female" required>
-      <label for="female">Female</label>
+      <label for="female" class="gender-label">Female</label>
       <input type="radio" id="other" name="gender" value="Other" required>
-      <label for="other">Other</label><br><br>
+      <label for="other" class="gender-label">Other</label>
 
       <label for="file">Upload Profile Picture:</label>
-      <input type="file" id="file" name="file" accept="image/*"><br>
-      <div id="preview">Preview will appear here</div><br>
+      <input type="file" id="file" name="file" accept="image/*">
+      <div id="preview">Preview will appear here</div>
 
-      <label for="feedback">Feedback:</label><br>
-      <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback here..." required></textarea><br><br>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..." required></textarea>
 
-      <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
+      <div class="button-row">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
     </form>
   </div>
 
