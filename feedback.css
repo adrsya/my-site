@@ -1,0 +1,168 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+.form-container {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Form labels and inputs */
+label {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="time"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit and Reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+/* Reset default styles */
+body, h2, form, input, textarea, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+  }
+  
+  /* Container for the form */
+  .form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Form heading */
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Labels and inputs */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  /* Radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Submit and Reset buttons */
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  input[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1976D2;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Image preview styling */
+  #preview {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #preview img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  }
